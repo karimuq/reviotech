@@ -198,6 +198,31 @@ a {
   transform: translateY(-2px);
 }
 
+.card-spotlight {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 16%, var(--card-bg)), var(--card-bg) 72%);
+  border-color: color-mix(in srgb, var(--accent) 48%, var(--card-border));
+  box-shadow: 0 10px 28px -12px color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.card-spotlight:hover {
+  border-color: var(--accent);
+  box-shadow: 0 14px 32px -10px color-mix(in srgb, var(--accent) 55%, transparent);
+}
+
+.card-spotlight .card-icon {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.card-spotlight .tag-beta {
+  background: var(--accent-soft);
+}
+
+.card-spotlight .card-arrow {
+  color: var(--accent);
+}
+
 .card-icon {
   width: 40px;
   height: 40px;
