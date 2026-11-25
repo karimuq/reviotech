@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — REVIO | Ideas into Reality.</title>
+  <meta name="description" content="Let's talk about your project. Contact REVIO for smart products, robotics, embedded systems, and design." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <script src="theme.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="header-left"><a href="index.html#home" class="site-name">REVIO</a></div>
+      <nav id="main-nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#work">Products</a>
+        <a href="services.html">Services</a>
+        <a href="links.html">Links</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="contact-page-container">
+    <div class="contact-page-header">
+      <div class="section-label"><span class="accent">04 — DIRECT INQUIRY</span></div>
+      <h1>Let’s talk about your project</h1>
+      <p>Have a smart product concept, embedded hardware challenge, or digital experience in mind? Send a message directly to the REVIO team.</p>
+    </div>
+
+    <div class="contact-form-card">
+      <form action="https://formsubmit.co/revioq2026@gmail.com" method="POST" id="contact-form">
+        <input type="hidden" name="_subject" value="New Project Inquiry — REVIO" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" id="form-next" value="thanks.html" />
+
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="contact-name">Your Name *</label>
+            <input type="text" id="contact-name" name="name" placeholder="e.g. Alex Morgan" required />
+          </div>
+          <div class="form-field">
+            <label for="contact-email">Your Email Address *</label>
+            <input type="email" id="contact-email" name="email" placeholder="name@company.com" required />
+          </div>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="project-type">Project Focus</label>
+            <select id="project-type" name="project_type">
+              <option value="Qchain Product Inquiry">Product Inquiry (Qchain)</option>
+              <option value="General Partnership">General Partnership</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="contact-subject">Subject</label>
+            <input type="text" id="contact-subject" name="subject" placeholder="Brief project summary" />
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="contact-message">Project Details &amp; Message *</label>
+          <textarea id="contact-message" name="message" placeholder="Tell us about what you are building, your timeline, and any technical goals..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit" id="submit-btn">
+          <i class="fa-solid fa-paper-plane"></i> Send to REVIO
+        </button>
+      </form>
+
+      <div class="direct-contact-note">
+        Prefer to reach us directly? <a href="mailto:revioq2026@gmail.com">revioq2026@gmail.com</a> &bull; <a href="tel:+905342987946">+90 534 298 79 46</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#work">Products</a>
+        <a href="services.html">Services</a>
+        <a href="links.html">Links</a>
+        <a href="contact.html">Contact</a>
+        <a href="sitemap.html">Site Map</a>
+        <a href="legal.html">Legal</a>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="footer-brand">
+        <strong>REVIO</strong>
+        <span>Ideas into Reality.</span>
+        <span class="footer-year">&copy; 2026</span>
+      </div>
+      <p class="site-credit">Website by <a href="https://karimuq.github.io/website/" target="_blank" rel="noopener noreferrer">Karim Abdelnour</a></p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
